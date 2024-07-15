@@ -1,0 +1,83 @@
+.mod-panel {
+    width: 100%;
+    max-width: 740px;
+    /* min-width: 580px; */
+    margin: 0 auto 30px;
+    _width: 690px;
+}
+.mod-panel .hd{
+    padding-top: 25px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.mod-panel .hd h1{
+    font-size: 24px;
+    color:#212121;
+}
+.mod-panel .bd{
+    max-width: 800px;
+    _width:690px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mod-panel .bd .search{
+    margin-bottom: 50px;
+}
+.mod-panel .search label{
+    padding-right: 10px;
+}
+.mod-panel .search .sel{
+    /*width: 200px;*/
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: solid 1px #ebebeb;
+    outline: none;
+    line-height: 24px;
+}
+.mod-panel .bd .info{
+    margin: 0 auto;
+    padding-top: 30px;
+    border-top: dashed 1px #ccc;
+}
+.mod-panel .info table{
+    border: 1px solid #B8DCF5;
+}
+.mod-panel .info th{
+    border: 1px solid #B8DCF5;
+    background: #EDF7FF;
+    color: #348BCF;
+    text-align: center;
+    font-size: 14px;
+    line-height: 32px;
+}
+.mod-panel .info td{
+    border: 1px solid #B8DCF5;
+    line-height: 32px;
+}
+.mod-panel .info td.note{
+    padding: 10px 15px;
+    border-color: #F3D9B5;
+    background: #FFFBF7;
+    text-align: left;
+    font-size: 12px;
+    line-height: 22px;
+}
+.mod-panel .info td.note span{
+    line-height: 26px;
+    font-weight: bold;
+}
+.mod-panel .info .song{
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border: solid 1px #B8DCF5;
+    background:#FCFEFF; 
+    line-height: 24px;
+}
+.mod-panel .info .song h2{
+    color: #666;
+    font-size: 20px;
+}
+.mod-panel .info .song p{
+    padding-left: 20px;
+}
